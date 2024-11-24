@@ -1,0 +1,48 @@
+Stanford University,Palo Alto CA,Suburban/Urban,Medium,Aerospace Engineering/Public Policy,33-35,4
+Carnegie Mellon,Pittsburgh PA,Urban,Medium,Mechanical Engineering/Robotics,33-35,15
+Johns Hopkins,Baltimore MD,Urban,Medium,Space Systems Engineering,33-35,11
+Georgetown,Washington DC,Urban,Medium,Foreign Service/Government,32-35,14
+Northwestern,Evanston IL,Urban Adjacent,Medium,Engineering & Public Policy,33-35,7
+Rice University,Houston TX,Urban,Small,Aerospace Engineering,33-36,9
+UC Berkeley,Berkeley CA,Urban,Large,Aerospace/Public Policy,31-35,15
+Harvey Mudd,Claremont CA,Suburban,Small,Engineering,33-35,14
+Tufts University,Medford MA,Urban Adjacent,Medium,Engineering/International Relations,33-35,16
+Georgia Tech,Atlanta GA,Urban,Large,Aerospace Engineering,31-34,21
+NYU Gallatin,New York NY,Urban,Large,Individualized Study,31-34,21
+Vanderbilt University,Nashville TN,Urban,Medium,Engineering/Public Policy,33-35,12
+Washington University,St. Louis MO,Urban,Medium,Engineering/Political Science,33-35,15
+Yale University,New Haven CT,Urban,Medium,Engineering/Political Science,33-35,7
+Brown University,Providence RI,Urban,Medium,Engineering/Public Policy,33-35,8
+Duke,Durham NC,Urban Adjacent,Medium,Engineering/Public Policy,33-35,8
+Grinnell College,Grinnell IA,College Town,Small,Political Sciences/Sciences,31-34,21
+William & Mary,Williamsburg VA,College Town,Medium,Public Policy/Engineering Science,30-34,42
+Lehigh University,Bethlehem PA,,Urban Adjacent,Medium,Engineering/Political Science,30-34,47
+Purdue University,West Lafayette IN,College Town,Large,Aerospace Engineering,26-32,46
+University of Maryland,College Park MD,Urban Adjacent,Large,Aerospace Engineering,30-34,44
+Case Western,Cleveland OH,Urban,Medium,Engineering,30-34,30
+George Washington,Washington DC,Urban,Large,Public Policy,29-33,41
+University of Denver,Denver CO,Urban,Medium,International Studies,27-32,49
+Worcester Polytechnic,Worcester MA,Urban,Small,Aerospace Engineering,29-33,49
+American University,Washington DC,Urban,Medium,Political Science,27-31,39
+University of Pittsburgh,Pittsburgh PA,Urban,Large,Engineering,28-33,45
+U Illinois-Urbana Champaign,Champaign IL,College Town,Large,Aerospace Engineering,27-33,45
+Fordham University,Bronx NY,Urban,Medium,Political Science,28-32,47
+Drexel University,Philadelphia PA,Urban,Large,Engineering,25-31,47
+University of Miami,Coral Gables FL,Urban Adjacent,Medium,Engineering/Political Science,29-32,49
+Boston University,Boston MA,Urban,Large,Engineering/Political Science,31-34,32
+Brandeis University,Waltham MA,Urban Adjacent,Medium,Politics/Science/International Relations,31-34,33
+Arizona State University,Phoenix AZ,Urban,Large,Aerospace Engineering,25-31,88
+University of Houston,Houston TX,Urban,Large,Engineering,23-29,65
+Texas State,San Marcos TX,College Town,Large,Political Science,20-26,85
+Stevens Institute,Hoboken NJ,Urban,Small,Engineering,30-33,53
+Miami University,Oxford OH,College Town,Large,Engineering/Public Policy,26-31,92
+University of Vermont,Burlington VT,Urban,Medium,Engineering/Environmental Policy,26-32,71
+UT Arlington,Arlington TX,Urban,Large,Aerospace Engineering,20-27,88
+Embry-Riddle,Daytona Beach FL,Urban Adjacent,Medium,Aerospace Engineering,23-30,62
+DePaul University,Chicago IL,Urban,Large,Public Policy,23-29,68
+Florida Tech,Melbourne FL,Urban Adjacent,Small,Aerospace Engineering,24-30,74
+RIT,Rochester NY,Suburban,Large,Engineering,27-32,71
+University of San Francisco,San Francisco CA,Urban,Medium,Politics/Engineering,23-29,65
+Hofstra University,Hempstead NY,Suburban,Medium,Engineering/Political Science,25-30,68
+St. John's University,Queens NY,Urban,Large,Public Policy,23-29,72
+University of Colorado Denver,Denver CO,Urban,Large,Engineering/Political Science,22-28,67
