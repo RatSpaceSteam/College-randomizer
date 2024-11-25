@@ -16,7 +16,7 @@ Brown University,Providence RI,Urban,Medium,Engineering/Public Policy,33-35,8
 Duke,Durham NC,Urban Adjacent,Medium,Engineering/Public Policy,33-35,8
 Grinnell College,Grinnell IA,College Town,Small,Political Sciences/Sciences,31-34,21
 William & Mary,Williamsburg VA,College Town,Medium,Public Policy/Engineering Science,30-34,42
-Lehigh University,Bethlehem PA,,Urban Adjacent,Medium,Engineering/Political Science,30-34,47
+Lehigh University,Bethlehem PA,Urban Adjacent,Medium,Engineering/Political Science,30-34,47
 Purdue University,West Lafayette IN,College Town,Large,Aerospace Engineering,26-32,46
 University of Maryland,College Park MD,Urban Adjacent,Large,Aerospace Engineering,30-34,44
 Case Western,Cleveland OH,Urban,Medium,Engineering,30-34,30
