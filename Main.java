@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.*;
 
@@ -33,15 +32,14 @@ public class Main {
         }
         fileScan.close();
 
-        for (int i = 0; i < randomColleges.length; i++) {
-            System.out.println("Name: " + randomColleges[i].getName());
-            System.out.println("Location: " + randomColleges[i].getLocation());
-            System.out.println("Setting: " + randomColleges[i].getSetting());
-            System.out.println("Size: " + randomColleges[i].getSize());
-            System.out.println("Major/Field of Interest: " + randomColleges[i].getMajor());
-            System.out.println("ACT Range: " + randomColleges[i].getRange());
-            System.out.println("Acceptance Rate: " + randomColleges[i].getRate() + "%\n");
-        }
+        int randCol = (int)(Math.random() * 48);
+        System.out.println("Name: " + randomColleges[randCol].getName());
+        System.out.println("Location: " + randomColleges[randCol].getLocation());
+        System.out.println("Setting: " + randomColleges[randCol].getSetting());
+        System.out.println("Size: " + randomColleges[randCol].getSize());
+        System.out.println("Major/Field of Interest: " + randomColleges[randCol].getMajor());
+        System.out.println("ACT Range: " + randomColleges[randCol].getRange());
+        System.out.println("Acceptance Rate: " + randomColleges[randCol].getRate() + "%\n");
     }
 
     public static boolean containsNumAndLet(String input) {
