@@ -4,34 +4,44 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws IOException{
+        College[] randomColleges = new College[48];
         Scanner fileScan;
         fileScan = new Scanner(new File("colleges.txt"));
         fileScan.useDelimiter(",");
         String name = fileScan.next();
         for (int i = 0; i < 48; i++) {
-            System.out.println("Name: " + name);
             String location = fileScan.next();
-            System.out.println("Location: " + location);
             String setting = fileScan.next();
-            System.out.println("Setting: " + setting);
             String size = fileScan.next();
-            System.out.println("Size: " + size);
             String major = fileScan.next();
-            System.out.println("Major/Field of Interest: " + major);
             String range = fileScan.next();
-            System.out.println("ACT Range: " + range);
-            String acceptRate = fileScan.next();
-            if (containsNumAndLet(acceptRate)) {
-                StringBuilder reset = new StringBuilder(acceptRate);
-                int rateAndName = splitInTwo(acceptRate);
-                acceptRate = acceptRate.substring(0, rateAndName);
-                System.out.println("Acceptance Rate: " + acceptRate);
+            String acceptRateString = fileScan.next();
+            if (containsNumAndLet(acceptRateString)) {
+                StringBuilder reset = new StringBuilder(acceptRateString);
+                int rateAndName = splitInTwo(acceptRateString);
+                acceptRateString = acceptRateString.substring(0, rateAndName - 1);
+                int acceptRate = Integer.parseInt(acceptRateString);
+                randomColleges[i] = new College(name, location, setting, size, major, range, acceptRate);
                 reset.delete(0, rateAndName);
                 name = reset.toString();
+            }
+            else {
+                int acceptRate = Integer.parseInt(acceptRateString);
+                randomColleges[i] = new College(name, location, setting, size, major, range, acceptRate);
             }
 
         }
         fileScan.close();
+
+        for (int i = 0; i < randomColleges.length; i++) {
+            System.out.println("Name: " + randomColleges[i].getName());
+            System.out.println("Location: " + randomColleges[i].getLocation());
+            System.out.println("Setting: " + randomColleges[i].getSetting());
+            System.out.println("Size: " + randomColleges[i].getSize());
+            System.out.println("Major/Field of Interest: " + randomColleges[i].getMajor());
+            System.out.println("ACT Range: " + randomColleges[i].getRange());
+            System.out.println("Acceptance Rate: " + randomColleges[i].getRate() + "%\n");
+        }
     }
 
     public static boolean containsNumAndLet(String input) {
