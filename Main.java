@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.io.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException{
@@ -8,7 +8,7 @@ public class Main {
         fileScan = new Scanner(new File("colleges.txt"));
         fileScan.useDelimiter(",");
         String name = fileScan.next();
-        for (int i = 0; i < 48; i++) {
+        for (int i = 0; i < 46; i++) {
             String location = fileScan.next();
             String setting = fileScan.next();
             String size = fileScan.next();
@@ -32,7 +32,7 @@ public class Main {
         }
         fileScan.close();
 
-        int randCol = (int)(Math.random() * 48);
+        int randCol = (int)(Math.random() * 46);
         System.out.println("Name: " + randomColleges[randCol].getName());
         System.out.println("Location: " + randomColleges[randCol].getLocation());
         System.out.println("Setting: " + randomColleges[randCol].getSetting());
@@ -40,6 +40,62 @@ public class Main {
         System.out.println("Major/Field of Interest: " + randomColleges[randCol].getMajor());
         System.out.println("ACT Range: " + randomColleges[randCol].getRange());
         System.out.println("Acceptance Rate: " + randomColleges[randCol].getRate() + "%\n");
+
+/*Needs doing:
+Stanford University
+Carnegie Mellon
+Johns Hopkins
+Georgetown
+Northwestern
+Rice University
+UC Berkeley
+Harvey Mudd
+Tufts University
+Georgia Tech,Atlanta GA
+NYU Gallatin
+Vanderbilt University
+Washington University
+Yale University
+Brown University
+Duke
+Grinnell College
+William & Mary
+Lehigh University
+University of Maryland
+Case Western
+George Washington
+University of Denver
+Worcester Polytechnic
+American University
+University of Pittsburgh
+U Illinois-Urbana Champaign
+Fordham University
+Drexel University
+University of Miami
+Boston University
+Brandeis University
+Arizona State University
+University of Houston
+Texas State
+Stevens Institute
+Miami University
+University of Vermont
+UT Arlington
+Embry-Riddle
+DePaul University
+Florida Tech
+RIT
+University of San Francisco
+Hofstra University
+St. John's University
+University of Colorado Denver
+
+Done:
+Purdue
+
+Currently investigating:
+George Washington
+University of Miami*/
     }
 
     public static boolean containsNumAndLet(String input) {
